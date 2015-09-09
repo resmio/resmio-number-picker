@@ -1,14 +1,22 @@
 {
   "name": "resmio-number-picker",
   "description": "A number picker built in react",
+  "keywords": [
+    "react-component",
+    "react",
+    "resmio",
+    "input",
+    "number-picker"
+  ],
   "author": "resmio team <developers@resmio.com> (http://resmio.com)",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "main.jsx",
   "scripts": {
-    "build": "jsx main.jsx > resmio-number-picker.js",
+    "build": "babel main.jsx > resmio-number-picker.js",
     "prepublish": "npm run build"
   },
   "devDependencies": {
+    "babel": "^5.8.23",
     "react-tools": "^0.13.3"
   }
 }
