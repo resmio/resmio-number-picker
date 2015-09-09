@@ -3,5 +3,12 @@
   "description": "A number picker built in react",
   "author": "resmio team <developers@resmio.com> (http://resmio.com)",
   "version": "0.1.0",
-  "main": "index.js"
+  "main": "index.js",
+  "scripts": {
+    "build": "jsx main.jsx > resmio-number-picker.js",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "react-tools": "^0.13.3"
+  }
 }
