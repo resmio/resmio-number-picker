@@ -8,7 +8,7 @@
     "input",
     "number-picker"
   ],
-  "author": "resmio team <developers@resmio.com> (http://resmio.com)",
+  "author": "Jose Menor <jose@resmio.com> (http://resmio.com)",
   "version": "0.1.0",
   "main": "main.jsx",
   "scripts": {
