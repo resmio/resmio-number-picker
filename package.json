@@ -12,7 +12,7 @@
   "version": "0.1.0",
   "main": "main.jsx",
   "scripts": {
-    "build": "babel main.jsx > resmio-number-picker.js",
+    "build": "babel --modules umd main.jsx > resmio-number-picker.js",
     "prepublish": "npm run build"
   },
   "devDependencies": {
