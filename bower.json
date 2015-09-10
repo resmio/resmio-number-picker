@@ -1,0 +1,29 @@
+{
+  "name": "resmio-number-picker",
+  "main": "resmio-number-picker.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/resmio/resmio-number-picker",
+  "authors": [
+    "menor <josemenor@gmail.com>"
+  ],
+  "description": "A number picker built with react",
+  "moduleType": [
+    "amd",
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "react-component",
+    "resmio",
+    "input",
+    "number-picker"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
